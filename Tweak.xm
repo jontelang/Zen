@@ -25,6 +25,10 @@
   -(UIView*)cameraGrabberView;
 @end
 
+@interface SBIconListPageControl : UIView
+  // Just so we can use self.hidden further down
+@end
+
 
 
 %hook UIStatusBar 
