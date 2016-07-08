@@ -13,3 +13,7 @@ This tweak is optimal
 Looks something like this, but better on the actual device.  
 
 ![](preview.jpg)
+
+## How to get it 
+
+Either download this repo and compile with theos. Or add this repo in Cydia and install the package http://www.jontelang.com/repo
