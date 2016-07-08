@@ -1,0 +1,9 @@
+Package: com.jontelang.zen
+Name: Zen
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Its like a theme, I guess
+Maintainer: Jonathan Winger-lang
+Author: Jonathan Winger-lang
+Section: Tweaks
