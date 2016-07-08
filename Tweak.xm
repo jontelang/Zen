@@ -175,6 +175,22 @@
 %end
 
 
+%hook SBLockScreenNotificationListView
+
+-(void)layoutSubviews{
+	%orig;
+
+	// Move the notification view down to below the time
+	UIView *containerView = MSHookIvar<UIView*>(self, "_containerView");
+	CGRect frame = containerView.frame;
+	frame.origin.y = 330.0f;
+	frame.size.height = 238.0f; // sum = 568
+	[containerView setFrame:frame];
+}
+
+%end
+
+
 %hook SBLockScreenViewController
 
 -(void)_addBatteryChargingViewAndShowBattery:(BOOL)arg1{
