@@ -9,7 +9,7 @@ This tweak is optimal
  - iOS 9.0.2 jailbroken
  - iPhone 5, 5s or SE (spacing on icons are optimised for this)
  
-Also confirmed to work on 7.0.2 iPhone 5C.
+Also confirmed to work on 7.0.2/5C and 8.4/5S.
  
 
 ## How it looks like
